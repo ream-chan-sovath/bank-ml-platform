@@ -1,10 +1,20 @@
+# Python virtual environment directory
 venv/
+# Python bytecode cache directory
 __pycache__/
+# Compiled Python files
 *.pyc
+# Local environment variables / secrets
 .env
+# Data files (not tracked in version control)
 *.csv
+# DVC cache directory for data versioning
 .dvc/cache
+# Jupyter notebook checkpoint files
 .ipynb_checkpoints/
+# Terraform working directory
 .terraform/
+# Terraform state files
 *.tfstate
+# Terraform state backup files
 *.tfstate.backup
