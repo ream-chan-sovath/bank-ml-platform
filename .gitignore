@@ -1,0 +1,10 @@
+venv/
+__pycache__/
+*.pyc
+.env
+*.csv
+.dvc/cache
+.ipynb_checkpoints/
+.terraform/
+*.tfstate
+*.tfstate.backup
