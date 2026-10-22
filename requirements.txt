@@ -1,1 +1,7 @@
 ruff
+pandas             # data manipulation — loading, cleaning, and analyzing tabular data
+numpy              # numerical operations — generating synthetic features, random distributions
+psycopg2-binary    # connects Python to PostgreSQL (the "-binary" version avoids a compile step)
+jupyter            # interactive notebooks, used for exploratory data analysis
+matplotlib         # base plotting library — the foundation most other plotting tools build on
+seaborn            # higher-level plotting built on matplotlib — nicer default charts, less code
