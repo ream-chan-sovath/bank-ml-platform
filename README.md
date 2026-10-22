@@ -4,6 +4,7 @@ A full MLOps system for bank credit risk prediction, built as a learning project
 
 ## Structure
 
-- `infrastrcuture/` - Terraform, platform-level Helm charts (Airflow, MLflow, monitoring). Changes rarely, reviewed carefully.
-- `models/` - training pipelines, DAGS, serving APIs. Changes frequently. One subfolder per use case (credit_risk, churn, etc.)
+- `infrastructure/` - Terraform, platform-level Helm charts (Airflow, MLflow, monitoring). Changes rarely, reviewed carefully.
+- `models/` - pipelines, DAGS, serving APIs. Changes frequently. One subfolder per use case (credit_risk, churn, etc.)
 - `docs/` - decisions log and project documentation
+ 
